@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WDT7R908VP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-WDT7R908VP');
+    </script>
+    <meta charset="UTF-8">
+    <title>Sapper Pro</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('sapperenterprise.static', filename='images/graphics/favicon.ico') }}">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- jquery -->
+    <script src="{{ url_for('sapperenterprise.static', filename='js/plugin/jquery.min.js') }}"></script>
+    <!-- self-defined -->
+    <link href="{{ url_for('sapperenterprise.static', filename='css/sapper.css') }}" rel="stylesheet">
+    <script src="{{ url_for('sapperenterprise.static', filename='js/sapper.js') }}"></script>
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light my-navbar">
+    <a class="navbar-brand" href="https://www.aichain.online"><img class="brand-logo" src="{{url_for('sapperenterprise.static', filename= 'images/graphics/logo-green.png') }}" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.aichain.store/"><i class="bi bi-shop-window"></i>Sapper Portal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.aichain.online/content%20pages/ai20software30.html"><i class="bi bi-card-list"></i>Documentation</a>
+            </li>
+            <li class="nav-item">
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="bi bi-motherboard"></i>Sapper Products</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://www.aichain.store:3000/">Sapper Community</a>
+                    <a class="dropdown-item" href="https://www.promptsapper.tech/sapperpro">Sapper Pro</a>
+                    <a class="dropdown-item" href="https://www.promptsapper.tech/sapperenterprise">Sapper Enterprise</a>
+                  </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <section id="cover">
+        <div class="container-fluid cover-wrapper">
+            <div class="row" style="padding-top: 200px">
+                <div class="col-6 cover-title">
+                    <h1 style="padding-top: 50px"><img class="cover-title-img" src="{{url_for('sapperenterprise.static', filename= 'images/graphics/sapper-white.png') }}" alt="sapper community"></h1>
+                    <h2 class="cover-title" style="padding-left: 300px">Pro Edition</h2>
+                </div>
+                <div class="col-6 cover-lead" style="padding: 100px">
+                    <h2 class="cover-subtitle">Sapper pro Empowering everyone with bespoke AI chains of chains through composition </h2>
+                    <br>
+                    <a class="cover-btn" href="https://www.promptsapper.tech/sapperpro/workspace">Start Your Work<i class="bi bi-box-arrow-in-up-right btn-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="content">
+        <div id="movie" class="section">
+            <div class="section-card row">
+                <div class="col-6">
+                    <div class="d-flex" style="justify-content: center">
+                        <iframe width="540" height="304" src="//player.bilibili.com/player.html?aid=446462919&bvid=BV1Sj411X7cC&cid=1210945909&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                    </div>
+                </div>
+                <div class="col-6 section-card-text">
+                    <h4 class="video-caption">Demo - Movie Review Analyst</h4>
+                    <h5 class="section-lead">This is a demo that takes you through the steps of creating your first AI services using the sapper. Just fill in your basic requirements and sapper will generate an initialization form for you, which can be completed with a little optimization and deployed to the sapper portal with one click</h5>
+                    <a class="section-card-btn" href="https://www.promptsapper.tech/sapperpro/workspace">Have a try</a>
+                    <div class="divider"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cfg" class="section">
+            <div class="section-card row">
+                <div class="col-6 section-card-text">
+                    <h4 class="video-caption">Demo - DFG Generator</h4>
+                    <h5 class="section-lead">In this demo you can learn about the Sapper Community version of the form co-pilot, the form co-pilot will help you fill out the form throughout the process based on what you have already filled in.</h5>
+                    <a class="section-card-btn" href="https://www.promptsapper.tech/sapperpro/workspace">Have a try</a>
+                    <div class="divider"></div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex" style="justify-content: center">
+                        <iframe width="540" height="304" src="//player.bilibili.com/player.html?aid=574089576&bvid=BV1Gz4y147RD&cid=1214892906&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--        <div id="product" class="section">-->
+<!--            <div class="section-card row">-->
+<!--                <div class="col-12 section-card-text">-->
+<!--                    <h2 class="section-title" style="text-align: center">Sapper Products</h2>-->
+<!--                    <p class="section-lead">Create, open, or save AI chain projects. You can download the backend Python code for the AI chain to integrate it into your other software projects (require our sapperchain Python library). </p>-->
+<!--                    <p class="section-lead">We are working on implementing a one-click sharing feature for sharing your AI chain projects to the AI chain marketplace, as well as deploying your AI services to cloud servers.</p>-->
+<!--                </div>-->
+<!--                <div class="col-3 section-card-img">-->
+<!--&lt;!&ndash;                    <img class="section-card-img" src="https://www.aichain.online/public/content%20pages/sapperide/ide-gifs/projectmanagement.gif">&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+    </section>
+
+    <footer id="footer" class="footer">
+        <a href="{{url_for('sapperenterprise.static', filename= 'termofservice.pdf') }}"><i class="bi bi-person-check"></i>Term of Service</a>
+        <a href="{{url_for('sapperenterprise.static', filename= 'privacypolicy.pdf') }}"><i class="bi bi-card-heading"></i>Privacy Agreement</a>
+        <a href="mailto:promptsapper@gmail.com"><i class="bi bi-envelope-at"></i>Contact Us</a>
+        <p>Copyright © 2023. AI-Chain All rights reserved.</p>
+    </footer>
+</main>
+</body>
+<script>
+    $(document).ready(()=>{
+
+    // change the navbar on scroll
+    $(window).scroll(function (){
+        let nav = $('.my-navbar')
+        let cover = $('#cover')
+        let navLink = $('.nav-link')
+        // start scroll
+        if (cover.offset().top - $(document).scrollTop() <= -100){
+            nav.css({'height':'85px', 'position':'fixed', 'background':'white', 'box-shadow': 'rgba(149, 157, 165, 0.2) 0px 8px 24px'})
+            navLink.css({'color':'var(--first)', 'font-weight':'normal'})
+            navLink.mouseover(function() {
+                $(this).css({'color':'navajowhite'})
+            }).mouseout(function (){
+                $(this).css({'color':'var(--first)'})
+            });
+        }
+        // back to the top
+        else{
+            nav.css({'height':'80px', 'position':'absolute', 'background':'', 'box-shadow': ''})
+            navLink.css({'color':'whitesmoke', 'font-weight':'normal'})
+            navLink.mouseover(function() {
+                $(this).css({'color':'navajowhite'})
+            }).mouseout(function (){
+                $(this).css({'color':'whitesmoke'})
+            });
+        }
+    })
+
+    // click card to redirect
+    $('.module-card').click(function (){
+        window.location.href = 'content.html'
+    })
+})
+</script>
+<script>
+  // 获取所有的指示符按钮
+  const indicators = document.querySelectorAll('.carousel-indicator button');
+
+  // 给每个指示符按钮添加点击事件处理程序
+  indicators.forEach((indicator, index) => {
+    indicator.addEventListener('click', () => {
+      // 移除所有指示符的active类
+      indicators.forEach((item) => {
+        item.classList.remove('active');
+      });
+
+      // 给当前点击的指示符添加active类
+      indicator.classList.add('active');
+    });
+  });
+</script>
+
+</html>
